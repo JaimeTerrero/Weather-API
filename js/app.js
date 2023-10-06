@@ -3,10 +3,10 @@ const resultado = document.querySelector('#resultado');
 const formulario = document.querySelector('#formulario');
 
 document.addEventListener('DOMContentLoaded', () => {
-    formulario.addEventListener('submit', buscarCancion);
+    formulario.addEventListener('submit', buscarClima);
 });
 
-function buscarCancion(e){
+function buscarClima(e){
     e.preventDefault();
 
     // Validación
