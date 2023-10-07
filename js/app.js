@@ -46,7 +46,7 @@ function mostrarError(mensaje){
 function mostrarClima(ciudad, pais){
     const appId = '3ceb2e11869a394a20d9b34010c23ebb';
 
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`;
 
     Spinner();
 
